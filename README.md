@@ -61,3 +61,5 @@ The cScriptWithParams is imported using `Import-DscResource -Name cScriptWithPar
 The parameters you want to pass into the scripts are defined in `cParams`. This is a hash-table of key-value pairs, where the key is the variable name which you reference in the scripts with a $ (so `globalVar` is referenced by `$globalVar` inside the Get-/Set-/Test- scripts). The values can come from global variables, configData (like `$Node.SomeProperty`) or hard-coded.
 
 The only limitation is that the values must be strings.
+
+To see this resource in action, see the following blog post: http://colinsalmcorner.com/post/real-config-handling-for-dsc-in-rm
