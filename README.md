@@ -2,7 +2,7 @@
 This is a custom set of custom DSC resources. The following resources are included:
 - cScriptWithParams
 
-To use the resource, place it in %ProgramFiles%\WindowsPowerShell\Modules.
+To use the resource, place the entire DSC_ColinsALMCorner.com directory into %ProgramFiles%\WindowsPowerShell\Modules. Be aware that you need this to be on the server you're "compiling" your DSC scripts on, as well as on any target servers you're going to deploy to.
 
 ##cScriptWithParams
 This is a customization of the Script Resource that allows you to gracefully handle variables. Here's an example script:
